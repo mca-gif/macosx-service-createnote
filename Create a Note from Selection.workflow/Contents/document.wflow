@@ -53,7 +53,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	tell application "Notes"		set accountName to the name of first account		tell account accountName			set folderName to the name of first folder			tell folder folderName				make new note with properties {body:input}			end tell		end tell	end tell	return inputend run</string>
+					<string>on run {input, parameters}	tell application "Notes"		set accountName to the name of first account		tell account accountName			set folderName to the name of first folder			tell folder folderName				make new note with properties {name: input, body:input}			end tell		end tell	end tell	return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -104,8 +104,6 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
