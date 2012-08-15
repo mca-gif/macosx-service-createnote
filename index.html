@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Create a Note Service : Send any text to the Notes application in Mountain Lion" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Create a Note Service</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mattandersen/macosx-service-createnote">View on GitHub</a>
+
+          <h1 id="project_title">Create a Note Service</h1>
+          <h2 id="project_tagline">Send any text to the Notes application in Mountain Lion</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mattandersen/macosx-service-createnote/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mattandersen/macosx-service-createnote/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>A Mac OS X text service for Mountain Lion which will create a note in the Notes application from the selected text.</p>
+
+<p>In most versions of Mac OS X you can press Shift+Cmd+Y and the highlighted text will be imported into the Sticky Note application.
+Since the introduction of the Notes feature on the iPhone I've wanted a quick shortcut that allowed sending a note from Mac OS X to
+my iPhone. Now with Mountain Lion's separate Notes application which can sync via iCloud or any IMAP account this can be done.</p>
+
+<h1>Credits</h1>
+
+<p>I got the concept of using textutil and tidy from this post on MacScripter.net: <a href="http://macscripter.net/viewtopic.php?id=39166">http://macscripter.net/viewtopic.php?id=39166</a> which does a very similar thing with files instead of as a text service</p>
+
+<p>A video is available here: <a href="http://www.youtube.com/watch?v=T-I-z37N3P0&amp;feature=g-upl">http://www.youtube.com/watch?v=T-I-z37N3P0&amp;feature=g-upl</a></p>
+
+<h1>Requirements</h1>
+
+<ul>
+<li>Mountain Lion</li>
+<li>An iCloud account setup on both iPhone and Mac.</li>
+<li>OR the same IMAP email account on both iPhone and Mac.</li>
+</ul><h1>Installation</h1>
+
+<ul>
+<li>Open the "Create a Note from Selection.workflow" and you should be asked to install the workflow or open it in Automator.</li>
+<li>Select "Install"</li>
+<li>If an older version of the service already exists, you'll be prompted to replace the existing one.</li>
+</ul><h1>Usage</h1>
+
+<p>Most applications should support Mac OS X services now. Simply highlight a piece of text and then secondary click. Select "Create a Note from Selection"</p>
+
+<h1>Limitations</h1>
+
+<p>It currently does not support multiple accounts or folders. The note will always be created in the first folder of the first account. However, from there it can be moved around to any folder you would like.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Create a Note Service maintained by <a href="https://github.com/mattandersen">mattandersen</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
