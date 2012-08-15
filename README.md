@@ -11,6 +11,8 @@ Credits
 =======
 I got the concept of using textutil and tidy from this post on MacScripter.net: http://macscripter.net/viewtopic.php?id=39166 which does a very similar thing with files instead of as a text service
 
+A video is available here: http://www.youtube.com/watch?v=T-I-z37N3P0&feature=g-upl
+
 Requirements
 ============
 - Mountain Lion
@@ -26,7 +28,7 @@ Installation
 Usage
 =====
 Most applications should support Mac OS X services now. Simply highlight a piece of text and then secondary click. Select "Create a Note from Selection"
-A video is available here: http://www.youtube.com/watch?v=T-I-z37N3P0&feature=g-upl
+
 
 Limitations
 ===========
