@@ -7,6 +7,10 @@ In most versions of Mac OS X you can press Shift+Cmd+Y and the highlighted text 
 Since the introduction of the Notes feature on the iPhone I've wanted a quick shortcut that allowed sending a note from Mac OS X to
 my iPhone. Now with Mountain Lion's separate Notes application which can sync via iCloud or any IMAP account this can be done.
 
+Credits
+=======
+I got the concept of using textutil and tidy from this post on MacScripter.net: http://macscripter.net/viewtopic.php?id=39166 which does a very similar thing with files instead of as a text service
+
 Requirements
 ============
 - Mountain Lion
