@@ -26,6 +26,7 @@ Installation
 Usage
 =====
 Most applications should support Mac OS X services now. Simply highlight a piece of text and then secondary click. Select "Create a Note from Selection"
+A video is available here: http://www.youtube.com/watch?v=T-I-z37N3P0&feature=g-upl
 
 Limitations
 ===========
